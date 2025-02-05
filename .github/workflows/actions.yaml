@@ -3,6 +3,6 @@ on: push
 jobs:
   init:
     runs-on: self-hosted
-    steps:
-      -run: echo 'hello poopoo'
-      -run: echo SHOSTNAME
+       steps:
+      - run: echo 'hello poo poo'
+      - run: echo $HOSTNAME
