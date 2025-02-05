@@ -4,5 +4,6 @@ jobs:
   init:
     runs-on: self-hosted
        steps:
-          - run: echo 'hello poo poo'
-          - run: echo $HOSTNAME
+          - run: 
+              echo 'hello poo poo'
+              echo $HOSTNAME
